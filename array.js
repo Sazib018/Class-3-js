@@ -25,3 +25,35 @@ console.log(fruits);
 var fruitPriceList = [100, 200, 300, 400, 500];
 var index = fruitPriceList.indexOf(200);
 
+// How can you add an element to an array at the last position
+
+const myArray = [1, 2, 3];
+myArray.push(4);
+
+// How can you remove the last element from array
+
+let array = [1, 0, 2];
+let removed = arr.pop();
+console.log(arr); 
+
+// Add an element at the first position of an array 
+
+const myArray = [23, 45, 12, 67];
+const addElement = 34;
+
+myArray.unshift(addElement);
+
+console.log(myArray);
+
+// Remove the first element of an array 
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift(); 
+console.log(fruits);
+
+// 
+
+
+
+
+
